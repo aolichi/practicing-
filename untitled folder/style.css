@@ -1,0 +1,34 @@
+body {
+    background-image: linear-gradient( 92.7deg,  rgba(245,212,212,1) 8.5%, rgba(252,251,224,1) 90.2% );
+      display:flex;
+      align-items: center;
+      justify-content:center;
+      flex-direction:column;
+    }
+    
+    svg {
+       box-shadow: 4px 4px 6px rgba(0,0,0,0.9);
+      background-color:#F7F4E4;
+    }
+
+    rect{
+        fill: #9CCED5
+      }
+      
+      rect:hover {
+        fill: #4A828A
+      }
+
+      .tooltip 
+{	
+    position: absolute;			
+    text-align: center;			
+    width: 70px;					
+    height: auto;					
+    padding: 2px;				
+    font: 12px sans-serif;		
+    background: white;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
